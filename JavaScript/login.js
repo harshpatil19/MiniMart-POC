@@ -4,11 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit' , (e) =>{
         e.preventDefault();
 
-        showToast('Login Successful');
-
-        setTimeout(() => {
-            showPage('homePage');
-            form.request();
-        }, 600);
+      alert('Login Successfully');
+  window.location.href = 'home.html';
     })
 })

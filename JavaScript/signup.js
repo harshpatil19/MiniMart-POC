@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded' , () =>{
     e.preventDefault();
 
   alert('Registered successfully');
-  window.location.href = 'HTML/login.html';
+  window.location.href = 'login.html';
   })
 
 
