@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiniMart - Kids</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+<!------------------------------------------------ HEADER ------------------------------------------------>
+<nav class="navbar navbar-expand-lg navbar-dark transparent-navbar px-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">MiniMart</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Mens.html">Mens</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Womens.html">Womens</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Kids.html">Kids</a>
+            </li>
+          </ul>
+          <div class="ms-auto">
+            <button
+              class="btn btn-light me-2"
+              onclick="goToPage('cart.html')"
+              data-testid="nav-cart"
+            >
+              Cart
+            </button>
+            <button
+              class="btn btn-danger"
+              onclick="logout()"
+              data-testid="nav-logout"
+            >
+              Logout
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<div class="main-content">
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Kids's Collection</h2>
+
+    <div class="row text-center">
+
+      <!-- SHIRT -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="../Images/Kids/KidsShirt.jpg" class="card-img-top product-img">
+          <div class="card-body">
+            <h5 class="card-title">Shirt</h5>
+            <p class="fw-bold">Price: ₹799</p>
+
+            <input type="number"
+                   class="form-control mb-3"
+                   min="1"
+                   value="1">
+
+            <button class="btn btn-success w-100">
+              Add Item
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANT -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="../Images/Kids/KidsPants.jpg" class="card-img-top product-img">
+          <div class="card-body">
+            <h5 class="card-title">Pant</h5>
+            <p class="fw-bold">Price: ₹999</p>
+
+            <input type="number"
+                   class="form-control mb-3"
+                   min="1"
+                   value="1">
+
+            <button class="btn btn-success w-100">
+              Add Item
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTWEAR -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="../Images/Kids/KidsShoes.jpg" class="card-img-top product-img">
+          <div class="card-body">
+            <h5 class="card-title">Footwear</h5>
+            <p class="fw-bold">Price: ₹1199</p>
+
+            <input type="number"
+                   class="form-control mb-3"
+                   min="1"
+                   value="1">
+
+            <button class="btn btn-success w-100">
+              Add Item
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!------------------------------------------------ FOOTER ------------------------------------------------>
+
+<footer class="transparent-footer text-white text-center py-3">
+  © 2025 <strong>MiniMart</strong> |
+  <span class="text-decoration-underline" style="cursor:pointer">
+    Terms & Conditions
+  </span>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
