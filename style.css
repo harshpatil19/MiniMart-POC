@@ -95,3 +95,36 @@ html, body {
     align-items: center;
 }
 
+/*Cart css*/
+ .cart-page {
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url("./Images/Cart/Cart.jpg");
+  background-size: cover;
+  background-position: center;
+  }
+
+  /* Optional: glass effect for modal */
+  .modal-content {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+  }
+
+.cart-page .navbar-nav .nav-link,
+.cart-page .navbar-brand {
+  color: white !important;
+}
+
+
+.cart-page .container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+

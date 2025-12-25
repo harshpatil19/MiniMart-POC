@@ -12,10 +12,9 @@
     <link rel="stylesheet" href="../style.css" />
 
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-/>
-
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
   </head>
 
   <body>
@@ -50,27 +49,21 @@
             </li>
           </ul>
           <div class="ms-auto">
-             <button
-  class="btn btn-light me-2 position-relative"
-  onclick="goToPage('cart.html')"
-  data-testid="nav-cart"
->
-  <i class="bi bi-cart3 fs-5"></i>
-  <span
-    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-  >
-    3
-  </span>
-</button>
-<button
-  id="logoutBtn"
-  class="btn btn-danger"
-  data-testid="nav-logout"
->
-  Logout
-</button>
-
-
+            <a
+              href="Cart.html"
+              class="btn btn-light me-2 position-relative"
+              data-testid="nav-cart"
+            >
+              <i class="bi bi-cart3 fs-5"></i>
+            
+            </a>
+            <button
+              id="logoutBtn"
+              class="btn btn-danger"
+              data-testid="nav-logout"
+            >
+              Logout
+            </button>
           </div>
         </div>
       </div>
@@ -78,74 +71,84 @@
 
     <!------------------------------------------------------------------------------------------------------------------------------------------------------->
     <div class="main-content">
-    <div class="container mt-5">
-      <h2 class="text-center mb-5">Select Category</h2>
+      <div class="container mt-5">
+        <h2 class="text-center mb-5">Select Category</h2>
 
-      <div class="row text-center">
-        <!-- MEN -->
-        <div class="col-md-4 mb-3">
-          <div class="card h-100">
-            <img
-              src="../Images/MensBanner.png"
-              class="card-img-top category-img"
-              alt="Men"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Men</h5>
-                 <a href="Mens.html" class="btn btn-primary w-100" data-testid="home-men">
-        Select
-      </a>
+        <div class="row text-center">
+          <!-- MEN -->
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <img
+                src="../Images/MensBanner.png"
+                class="card-img-top category-img"
+                alt="Men"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Men</h5>
+                <a
+                  href="Mens.html"
+                  class="btn btn-primary w-100"
+                  data-testid="home-men"
+                >
+                  Select
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- WOMEN -->
-        <div class="col-md-4 mb-3">
-          <div class="card h-100">
-            <img
-              src="../Images/WomensBanner.png"
-              class="card-img-top category-img"
-              alt="Women"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Women</h5>
-               <a href="Womens.html" class="btn btn-primary w-100" data-testid="home-men">
-        Select
-      </a>
+          <!-- WOMEN -->
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <img
+                src="../Images/WomensBanner.png"
+                class="card-img-top category-img"
+                alt="Women"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Women</h5>
+                <a
+                  href="Womens.html"
+                  class="btn btn-primary w-100"
+                  data-testid="home-men"
+                >
+                  Select
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- KIDS -->
-        <div class="col-md-4 mb-3">
-          <div class="card h-100">
-            <img
-              src="../Images/KidsBanner.jpg"
-              class="card-img-top category-img"
-              alt="Kids"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Kids</h5>
-               <a href="Kids.html" class="btn btn-primary w-100" data-testid="home-men">
-        Select
-      </a>
+          <!-- KIDS -->
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <img
+                src="../Images/KidsBanner.jpg"
+                class="card-img-top category-img"
+                alt="Kids"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kids</h5>
+                <a
+                  href="Kids.html"
+                  class="btn btn-primary w-100"
+                  data-testid="home-men"
+                >
+                  Select
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
 
     <!------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-    <footer class="transparent-footer text-white text-center py-3"
-      <div>
-        © 2025 <strong>MiniMart</strong> |
-        <span class="text-decoration-underline" style="cursor: pointer">
-          Terms & Conditions
-        </span>
-      </div>
+    <footer class="transparent-footer text-white text-center py-3" <div>
+      © 2025 <strong>MiniMart</strong> |
+      <span class="text-decoration-underline" style="cursor: pointer">
+        Terms & Conditions
+      </span>
     </footer>
-     <script src="../JavaScript/logout.js"></script>
+    <script src="../JavaScript/logout.js"></script>
   </body>
 </html>
